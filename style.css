@@ -1,0 +1,46 @@
+#wrapper {
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+table {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+
+table th {
+  border: 1px solid #333;
+  padding: 24px 32px;
+}
+
+table td {
+  border: 1px solid #333;
+  padding: 5px 24px;
+}
+
+td.cell-with-table {
+  padding: 0;
+}
+
+table th.logo-cell {
+  width: 30%;
+}
+
+table.inner-table {
+  border: 0;
+  width: auto;
+}
+
+table#sub-form,
+#amount-in-words-wrapper {
+  margin-top: 20px;
+}
+
+#amount-in-words-wrapper {
+  border: 1px solid #333;
+  padding: 12px 8px;
+}
